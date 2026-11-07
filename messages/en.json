@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "Rw-HMS",
+    "tagline": "National Healthcare",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "We could not load this information. Check your connection and try again.",
+    "skipToContent": "Skip to main content",
+    "close": "Close"
+  },
+  "metadata": {
+    "title": "Rw-HMS · National Healthcare",
+    "description": "Rwanda National Hospital Management & Interconnection System"
+  },
+  "nav": {
+    "mainLabel": "Main navigation",
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "staff": "Staff",
+    "wards": "Wards & Beds",
+    "transfers": "Transfers",
+    "auditLog": "Audit Log",
+    "facilities": "Facilities",
+    "settings": "Settings",
+    "helpCenter": "Help Center",
+    "logout": "Logout"
+  },
+  "topBar": {
+    "searchLabel": "Search patients",
+    "searchPlaceholder": "Search patient by name, National ID or phone…",
+    "notifications": "Notifications",
+    "help": "Help",
+    "noFacility": "No facility selected",
+    "openMenu": "Open navigation menu",
+    "userMenu": "Account menu",
+    "language": "Language",
+    "signedOut": "Not signed in",
+    "switchFacility": "Switch facility"
+  },
+  "language": {
+    "en": "English",
+    "rw": "Kinyarwanda",
+    "fr": "Français"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of activity at your facility.",
+    "emptyTitle": "No dashboard data yet",
+    "emptyDescription": "Facility statistics will appear here as patient, ward and transfer data come online."
+  },
+  "placeholder": {
+    "title": "{section}",
+    "emptyTitle": "Nothing to show yet",
+    "emptyDescription": "This section is being prepared and will be available soon."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to dashboard"
+  },
+  "auth": {
+    "systemName": "Rwanda Hospital Management & Interconnection System",
+    "nationalInterconnection": "National Interconnection",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "checkingSession": "Checking your session…",
+    "sessionError": "We could not verify your session.",
+    "login": {
+      "title": "Sign in",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "forgot": "Forgot password?",
+      "restricted": "Access is restricted to verified hospital staff and authorized personnel."
+    },
+    "forgot": {
+      "title": "Reset Password",
+      "description": "Enter your professional email or license ID. A reset link will be sent to your registered institutional email address.",
+      "identifierLabel": "Professional email or license ID",
+      "identifierPlaceholder": "Enter ID or email",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to login"
+    },
+    "sent": {
+      "title": "Check your email",
+      "description": "If an account matches what you entered, we have sent a password reset link to its registered institutional email address. The link expires in 30 minutes.",
+      "returnToLogin": "Return to login",
+      "notReceived": "Didn't receive the email?",
+      "resend": "Resend link",
+      "resent": "We sent the link again."
+    },
+    "reset": {
+      "title": "Create New Password",
+      "description": "Your new password must be unique and comply with security standards.",
+      "newPassword": "New password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm new password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "requirementsTitle": "Security requirements",
+      "rules": {
+        "minLength": "Minimum 12 characters",
+        "uppercase": "At least one uppercase letter",
+        "number": "At least one number",
+        "special": "At least one special character"
+      },
+      "submit": "Reset password",
+      "submitting": "Saving…",
+      "returnToLogin": "Return to login",
+      "missingToken": "This reset link is incomplete. Open the link from your email again or request a new one.",
+      "requestNew": "Request a new link",
+      "successTitle": "Password updated",
+      "successDescription": "Your password has been changed and you have been signed out on all devices. Sign in with your new password.",
+      "signIn": "Sign in"
+    },
+    "errors": {
+      "invalidEmail": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "identifierRequired": "Enter your email or license ID.",
+      "weakPassword": "The password does not meet every security requirement.",
+      "passwordMismatch": "The passwords do not match.",
+      "invalidCredentials": "Invalid email or password.",
+      "accountLocked": "Too many failed attempts. Your account is locked until {time}.",
+      "rateLimited": "Too many attempts. Wait a minute and try again.",
+      "invalidResetToken": "This reset link is invalid or has expired. Request a new one.",
+      "passwordReused": "Choose a password different from your current one.",
+      "network": "We could not reach the server. Check your connection and try again.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super Admin",
+    "HOSPITAL_ADMIN": "Hospital Admin",
+    "DOCTOR": "Doctor",
+    "NURSE": "Nurse",
+    "RECEPTIONIST": "Receptionist",
+    "LAB_TECH": "Lab Technician",
+    "PHARMACIST": "Pharmacist",
+    "BILLING_OFFICER": "Billing Officer"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "Rw-HMS",
+    "tagline": "Santé nationale",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "errorTitle": "Une erreur est survenue",
+    "errorDescription": "Impossible de charger ces informations. Vérifiez votre connexion et réessayez.",
+    "skipToContent": "Aller au contenu principal",
+    "close": "Fermer"
+  },
+  "metadata": {
+    "title": "Rw-HMS · Santé nationale",
+    "description": "Système national de gestion et d'interconnexion des hôpitaux du Rwanda"
+  },
+  "nav": {
+    "mainLabel": "Navigation principale",
+    "dashboard": "Tableau de bord",
+    "patients": "Patients",
+    "staff": "Personnel",
+    "wards": "Services et lits",
+    "transfers": "Transferts",
+    "auditLog": "Journal d'audit",
+    "facilities": "Établissements",
+    "settings": "Paramètres",
+    "helpCenter": "Centre d'aide",
+    "logout": "Déconnexion"
+  },
+  "topBar": {
+    "searchLabel": "Rechercher des patients",
+    "searchPlaceholder": "Rechercher un patient par nom, numéro d'identité ou téléphone…",
+    "notifications": "Notifications",
+    "help": "Aide",
+    "noFacility": "Aucun établissement sélectionné",
+    "openMenu": "Ouvrir le menu de navigation",
+    "userMenu": "Menu du compte",
+    "language": "Langue",
+    "signedOut": "Non connecté",
+    "switchFacility": "Changer d'établissement"
+  },
+  "language": {
+    "en": "English",
+    "rw": "Kinyarwanda",
+    "fr": "Français"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Aperçu de l'activité de votre établissement.",
+    "emptyTitle": "Aucune donnée pour le moment",
+    "emptyDescription": "Les statistiques de l'établissement apparaîtront ici à mesure que les données des patients, des services et des transferts seront disponibles."
+  },
+  "placeholder": {
+    "title": "{section}",
+    "emptyTitle": "Rien à afficher pour le moment",
+    "emptyDescription": "Cette section est en préparation et sera bientôt disponible."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page demandée n'existe pas ou a été déplacée.",
+    "backHome": "Retour au tableau de bord"
+  },
+  "auth": {
+    "systemName": "Système rwandais de gestion et d'interconnexion hospitalière",
+    "nationalInterconnection": "Interconnexion nationale",
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "checkingSession": "Vérification de votre session…",
+    "sessionError": "Impossible de vérifier votre session.",
+    "login": {
+      "title": "Connexion",
+      "submit": "Se connecter",
+      "submitting": "Connexion…",
+      "forgot": "Mot de passe oublié ?",
+      "restricted": "L'accès est réservé au personnel hospitalier vérifié et aux personnes autorisées."
+    },
+    "forgot": {
+      "title": "Réinitialiser le mot de passe",
+      "description": "Saisissez votre e-mail professionnel ou votre numéro de licence. Un lien de réinitialisation sera envoyé à votre adresse e-mail institutionnelle enregistrée.",
+      "identifierLabel": "E-mail professionnel ou numéro de licence",
+      "identifierPlaceholder": "Saisissez le numéro ou l'e-mail",
+      "submit": "Envoyer le lien",
+      "submitting": "Envoi…",
+      "backToLogin": "Retour à la connexion"
+    },
+    "sent": {
+      "title": "Consultez vos e-mails",
+      "description": "Si un compte correspond à votre saisie, nous avons envoyé un lien de réinitialisation à son adresse e-mail institutionnelle enregistrée. Le lien expire dans 30 minutes.",
+      "returnToLogin": "Retour à la connexion",
+      "notReceived": "Vous n'avez pas reçu l'e-mail ?",
+      "resend": "Renvoyer le lien",
+      "resent": "Nous avons renvoyé le lien."
+    },
+    "reset": {
+      "title": "Créer un nouveau mot de passe",
+      "description": "Votre nouveau mot de passe doit être unique et respecter les normes de sécurité.",
+      "newPassword": "Nouveau mot de passe",
+      "newPasswordPlaceholder": "Saisissez le nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "confirmPasswordPlaceholder": "Confirmez le nouveau mot de passe",
+      "requirementsTitle": "Exigences de sécurité",
+      "rules": {
+        "minLength": "12 caractères minimum",
+        "uppercase": "Au moins une lettre majuscule",
+        "number": "Au moins un chiffre",
+        "special": "Au moins un caractère spécial"
+      },
+      "submit": "Réinitialiser le mot de passe",
+      "submitting": "Enregistrement…",
+      "returnToLogin": "Retour à la connexion",
+      "missingToken": "Ce lien de réinitialisation est incomplet. Rouvrez le lien depuis votre e-mail ou demandez-en un nouveau.",
+      "requestNew": "Demander un nouveau lien",
+      "successTitle": "Mot de passe mis à jour",
+      "successDescription": "Votre mot de passe a été modifié et vous avez été déconnecté de tous vos appareils. Connectez-vous avec votre nouveau mot de passe.",
+      "signIn": "Se connecter"
+    },
+    "errors": {
+      "invalidEmail": "Saisissez une adresse e-mail valide.",
+      "passwordRequired": "Saisissez votre mot de passe.",
+      "identifierRequired": "Saisissez votre e-mail ou votre numéro de licence.",
+      "weakPassword": "Le mot de passe ne respecte pas toutes les exigences de sécurité.",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "invalidCredentials": "E-mail ou mot de passe invalide.",
+      "accountLocked": "Trop de tentatives échouées. Votre compte est verrouillé jusqu'à {time}.",
+      "rateLimited": "Trop de tentatives. Patientez une minute puis réessayez.",
+      "invalidResetToken": "Ce lien de réinitialisation est invalide ou a expiré. Demandez-en un nouveau.",
+      "passwordReused": "Choisissez un mot de passe différent de l'actuel.",
+      "network": "Impossible de joindre le serveur. Vérifiez votre connexion et réessayez.",
+      "generic": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super administrateur",
+    "HOSPITAL_ADMIN": "Administrateur d'hôpital",
+    "DOCTOR": "Médecin",
+    "NURSE": "Infirmier·ère",
+    "RECEPTIONIST": "Réceptionniste",
+    "LAB_TECH": "Technicien de laboratoire",
+    "PHARMACIST": "Pharmacien",
+    "BILLING_OFFICER": "Agent de facturation"
+  }
+}

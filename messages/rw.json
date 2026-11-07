@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "Rw-HMS",
+    "tagline": "Ubuvuzi bw'Igihugu",
+    "loading": "Birimo gufunguka…",
+    "retry": "Ongera ugerageze",
+    "errorTitle": "Habaye ikibazo",
+    "errorDescription": "Ntibyashobotse kubona aya makuru. Genzura interineti hanyuma wongere ugerageze.",
+    "skipToContent": "Jya ku bikubiyemo by'ingenzi",
+    "close": "Funga"
+  },
+  "metadata": {
+    "title": "Rw-HMS · Ubuvuzi bw'Igihugu",
+    "description": "Uburyo bw'igihugu bwo gucunga no guhuza ibitaro by'u Rwanda"
+  },
+  "nav": {
+    "mainLabel": "Ibice by'ingenzi",
+    "dashboard": "Incamake",
+    "patients": "Abarwayi",
+    "staff": "Abakozi",
+    "wards": "Ibyumba n'ibitanda",
+    "transfers": "Iyoherezwa",
+    "auditLog": "Igenzura ry'ibikorwa",
+    "facilities": "Ibigo by'ubuvuzi",
+    "settings": "Igenamiterere",
+    "helpCenter": "Ubufasha",
+    "logout": "Gusohoka"
+  },
+  "topBar": {
+    "searchLabel": "Shakisha abarwayi",
+    "searchPlaceholder": "Shakisha umurwayi ukoresheje izina, indangamuntu cyangwa telefone…",
+    "notifications": "Imenyesha",
+    "help": "Ubufasha",
+    "noFacility": "Nta kigo cyatoranyijwe",
+    "openMenu": "Fungura urutonde",
+    "userMenu": "Konti yawe",
+    "language": "Ururimi",
+    "signedOut": "Ntiwinjiye",
+    "switchFacility": "Hindura ikigo"
+  },
+  "language": {
+    "en": "English",
+    "rw": "Kinyarwanda",
+    "fr": "Français"
+  },
+  "dashboard": {
+    "title": "Incamake",
+    "subtitle": "Incamake y'ibikorwa by'ikigo cyawe.",
+    "emptyTitle": "Nta makuru arahari",
+    "emptyDescription": "Imibare y'ikigo izagaragara hano uko amakuru y'abarwayi, ibyumba n'iyoherezwa azagenda yinjizwa."
+  },
+  "placeholder": {
+    "title": "{section}",
+    "emptyTitle": "Nta kintu cyo kwerekana",
+    "emptyDescription": "Iki gice kirimo gutegurwa kandi kizaboneka vuba."
+  },
+  "notFound": {
+    "title": "Paji ntiyabonetse",
+    "description": "Paji ushaka ntibaho cyangwa yimuwe.",
+    "backHome": "Subira ku ncamake"
+  },
+  "auth": {
+    "systemName": "Sisitemu y'Igihugu yo Gucunga Ibitaro no Kubihuza",
+    "nationalInterconnection": "Ihuzwa ry'Igihugu",
+    "emailLabel": "Imeyili",
+    "passwordLabel": "Ijambobanga",
+    "showPassword": "Erekana ijambobanga",
+    "hidePassword": "Hisha ijambobanga",
+    "checkingSession": "Turimo kugenzura konti yawe…",
+    "sessionError": "Ntitwashoboye kwemeza konti yawe.",
+    "login": {
+      "title": "Injira",
+      "submit": "Injira",
+      "submitting": "Birimo kwinjira…",
+      "forgot": "Wibagiwe ijambobanga?",
+      "restricted": "Kwinjira byemewe gusa ku bakozi b'ibitaro bemejwe n'abandi babiherewe uburenganzira."
+    },
+    "forgot": {
+      "title": "Guhindura ijambobanga",
+      "description": "Andika imeyili y'akazi cyangwa nimero y'uruhushya rwawe. Tuzohereza link yo guhindura ijambobanga kuri imeyili y'ikigo wanditseho.",
+      "identifierLabel": "Imeyili y'akazi cyangwa nimero y'uruhushya",
+      "identifierPlaceholder": "Andika nimero cyangwa imeyili",
+      "submit": "Ohereza link",
+      "submitting": "Birimo koherezwa…",
+      "backToLogin": "Subira aho kwinjirira"
+    },
+    "sent": {
+      "title": "Reba imeyili yawe",
+      "description": "Niba hari konti ihuye n'ibyo wanditse, twohereje link yo guhindura ijambobanga kuri imeyili yayo y'ikigo. Iyo link irarangira mu minota 30.",
+      "returnToLogin": "Subira aho kwinjirira",
+      "notReceived": "Ntiwakiriye imeyili?",
+      "resend": "Ongera wohereze",
+      "resent": "Twongeye kohereza link."
+    },
+    "reset": {
+      "title": "Shyiraho ijambobanga rishya",
+      "description": "Ijambobanga rishya rigomba kuba ritandukanye n'irya mbere kandi ryujuje ibisabwa by'umutekano.",
+      "newPassword": "Ijambobanga rishya",
+      "newPasswordPlaceholder": "Andika ijambobanga rishya",
+      "confirmPassword": "Emeza ijambobanga rishya",
+      "confirmPasswordPlaceholder": "Ongera wandike ijambobanga rishya",
+      "requirementsTitle": "Ibisabwa by'umutekano",
+      "rules": {
+        "minLength": "Nibura inyuguti 12",
+        "uppercase": "Nibura inyuguti nkuru imwe",
+        "number": "Nibura umubare umwe",
+        "special": "Nibura ikimenyetso kidasanzwe kimwe"
+      },
+      "submit": "Hindura ijambobanga",
+      "submitting": "Birimo kubikwa…",
+      "returnToLogin": "Subira aho kwinjirira",
+      "missingToken": "Iyi link ntiyuzuye. Ongera ufungure link iri muri imeyili cyangwa usabe indi nshya.",
+      "requestNew": "Saba link nshya",
+      "successTitle": "Ijambobanga ryahinduwe",
+      "successDescription": "Ijambobanga ryawe ryahinduwe kandi wasohowe ku bikoresho byose. Injira ukoresheje ijambobanga rishya.",
+      "signIn": "Injira"
+    },
+    "errors": {
+      "invalidEmail": "Andika imeyili yemewe.",
+      "passwordRequired": "Andika ijambobanga ryawe.",
+      "identifierRequired": "Andika imeyili cyangwa nimero y'uruhushya.",
+      "weakPassword": "Ijambobanga ntiryujuje ibisabwa byose by'umutekano.",
+      "passwordMismatch": "Amagambobanga ntahura.",
+      "invalidCredentials": "Imeyili cyangwa ijambobanga si byo.",
+      "accountLocked": "Wagerageje inshuro nyinshi binanirana. Konti yawe ifunze kugeza {time}.",
+      "rateLimited": "Wagerageje inshuro nyinshi. Tegereza umunota umwe wongere ugerageze.",
+      "invalidResetToken": "Iyi link ntigikora cyangwa yararangiye. Saba indi nshya.",
+      "passwordReused": "Hitamo ijambobanga ritandukanye n'iryo usanganywe.",
+      "network": "Ntitwashoboye kugera kuri seriveri. Genzura interineti wongere ugerageze.",
+      "generic": "Habaye ikibazo. Ongera ugerageze."
+    }
+  },
+  "roles": {
+    "SUPER_ADMIN": "Umuyobozi mukuru wa sisitemu",
+    "HOSPITAL_ADMIN": "Umuyobozi w'ibitaro",
+    "DOCTOR": "Muganga",
+    "NURSE": "Umuforomo",
+    "RECEPTIONIST": "Ushinzwe kwakira abarwayi",
+    "LAB_TECH": "Umukozi wa laboratwari",
+    "PHARMACIST": "Umufarumasiye",
+    "BILLING_OFFICER": "Ushinzwe kwishyuza"
+  }
+}

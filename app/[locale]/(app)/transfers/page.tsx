@@ -1,0 +1,5 @@
+import { SectionPlaceholder } from "@/components/common/section-placeholder";
+
+export default function TransfersPage() {
+  return <SectionPlaceholder section="transfers" />;
+}

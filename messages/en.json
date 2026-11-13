@@ -1,7 +1,7 @@
 {
   "common": {
-    "appName": "Rw-HMS",
-    "tagline": "National Healthcare",
+    "appName": "Global Inc",
+    "tagline": "Healthcare",
     "loading": "Loading…",
     "retry": "Try again",
     "errorTitle": "Something went wrong",
@@ -10,8 +10,8 @@
     "close": "Close"
   },
   "metadata": {
-    "title": "Rw-HMS · National Healthcare",
-    "description": "Rwanda National Hospital Management & Interconnection System"
+    "title": "Global Inc · Healthcare",
+    "description": "Hospital Management & Interconnection System"
   },
   "nav": {
     "mainLabel": "Main navigation",
@@ -60,7 +60,7 @@
     "backHome": "Back to dashboard"
   },
   "auth": {
-    "systemName": "Rwanda Hospital Management & Interconnection System",
+    "systemName": "Hospital Management & Interconnection System",
     "nationalInterconnection": "National Interconnection",
     "emailLabel": "Email address",
     "passwordLabel": "Password",

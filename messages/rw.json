@@ -1,7 +1,7 @@
 {
   "common": {
-    "appName": "Rw-HMS",
-    "tagline": "Ubuvuzi bw'Igihugu",
+    "appName": "Global Inc",
+    "tagline": "Ubuvuzi",
     "loading": "Birimo gufunguka…",
     "retry": "Ongera ugerageze",
     "errorTitle": "Habaye ikibazo",
@@ -10,8 +10,8 @@
     "close": "Funga"
   },
   "metadata": {
-    "title": "Rw-HMS · Ubuvuzi bw'Igihugu",
-    "description": "Uburyo bw'igihugu bwo gucunga no guhuza ibitaro by'u Rwanda"
+    "title": "Global Inc · Ubuvuzi",
+    "description": "Sisitemu yo gucunga no guhuza ibitaro"
   },
   "nav": {
     "mainLabel": "Ibice by'ingenzi",
@@ -60,7 +60,7 @@
     "backHome": "Subira ku ncamake"
   },
   "auth": {
-    "systemName": "Sisitemu y'Igihugu yo Gucunga Ibitaro no Kubihuza",
+    "systemName": "Sisitemu yo Gucunga Ibitaro no Kubihuza",
     "nationalInterconnection": "Ihuzwa ry'Igihugu",
     "emailLabel": "Imeyili",
     "passwordLabel": "Ijambobanga",

@@ -4,7 +4,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./lib/i18n/request.ts");
 
 /**
- * Base URL of the Rw-HMS API (server-side only, read at build time). The browser never calls it
+ * Base URL of the Global Inc API (server-side only, read at build time). The browser never calls it
  * directly: /api/* is proxied there, so session cookies stay first-party on the web domain.
  */
 const apiUrl = process.env.API_URL?.replace(/\/+$/, "");

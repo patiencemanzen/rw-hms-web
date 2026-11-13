@@ -1,6 +1,6 @@
-# Rw-HMS Web
+# Global Inc Web
 
-Next.js frontend for **Rw-HMS**, the Rwanda National Hospital Management & Interconnection System.
+Next.js frontend for **Global Inc**, the Hospital Management & Interconnection System.
 It holds no business logic: every rule and permission check lives in the API
 ([`rw-hms-api`](../rw-hms-api)), and this app calls it over HTTP with cookies.
 

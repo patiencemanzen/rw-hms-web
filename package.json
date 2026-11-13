@@ -58,7 +58,7 @@
     "typescript": "^5",
     "vitest": "^5.0.5"
   },
-  "description": "Rw-HMS web: Rwanda National Hospital Management & Interconnection System",
+  "description": "Global Inc web: Hospital Management & Interconnection System",
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --fix",

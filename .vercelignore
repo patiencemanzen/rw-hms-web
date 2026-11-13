@@ -1,0 +1,9 @@
+# Keep local env files and build output out of `vercel deploy` uploads (the CLI does not read .gitignore).
+.env
+.env.*
+!.env.example
+node_modules
+.next
+test-results
+playwright-report
+e2e/.auth

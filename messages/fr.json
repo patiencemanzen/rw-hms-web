@@ -1,7 +1,7 @@
 {
   "common": {
-    "appName": "Rw-HMS",
-    "tagline": "Santé nationale",
+    "appName": "Global Inc",
+    "tagline": "Santé",
     "loading": "Chargement…",
     "retry": "Réessayer",
     "errorTitle": "Une erreur est survenue",
@@ -10,8 +10,8 @@
     "close": "Fermer"
   },
   "metadata": {
-    "title": "Rw-HMS · Santé nationale",
-    "description": "Système national de gestion et d'interconnexion des hôpitaux du Rwanda"
+    "title": "Global Inc · Santé",
+    "description": "Système de gestion et d'interconnexion hospitalière"
   },
   "nav": {
     "mainLabel": "Navigation principale",
@@ -60,7 +60,7 @@
     "backHome": "Retour au tableau de bord"
   },
   "auth": {
-    "systemName": "Système rwandais de gestion et d'interconnexion hospitalière",
+    "systemName": "Système de gestion et d'interconnexion hospitalière",
     "nationalInterconnection": "Interconnexion nationale",
     "emailLabel": "Adresse e-mail",
     "passwordLabel": "Mot de passe",
